@@ -15,6 +15,14 @@
             <p class="italic text-3xl">Tailwind CSS is pretty awesome!</p>
             <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">This text is responsvie. Check it out for various screens.</p>
         </div>
+        <div class="container flex flex-col justify-center items-center w-auto h-64 text-secondary" role="status">
+            <div class="spinner-border">
+                <span class="sr-only">
+                 Loading...
+                </span>
+            </div>
+
+          </div>
         <div class="container flex flex-col justify-center items-center example w-auto">
             <h1 class="text-6xl">Example class in _customstyles</h1>
         </div>
